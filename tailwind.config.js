@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mont: ["--font-mont", ...fontFamily.sans],
-        raleway: ["--font-raleway", ...fontFamily.sans]
+        raleway: ['var(--font-raleway)'],
+        mont: ['var(--font-mont)']
       },
       colors: {
         dark: "#1b1b1b",
